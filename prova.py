@@ -2,7 +2,7 @@ import flask
 from flask_restful import Resource, Api
 import json
 
-app = flask.Flask(_name_)
+app = Flask(_name_)
 api = Api(app)
 
 receita = [
